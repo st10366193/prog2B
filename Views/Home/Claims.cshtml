@@ -1,0 +1,27 @@
+﻿@{
+    Layout = "~/Views/Shared/_Layout.cshtml";
+    ViewData["Title"] = "Submit Claim";
+}
+
+<div class="container mt-4">
+    <h3>Submit New Claim</h3>
+    <form>
+        <div class="mb-3">
+            <label>Month</label>
+            <input class="form-control" />
+        </div>
+        <div class="mb-3">
+            <label>Year</label>
+            <input type="number" class="form-control" />
+        </div>
+        <div class="mb-3">
+            <label>Hours Worked</label>
+            <input type="number" class="form-control" />
+        </div>
+        <div class="mb-3">
+            <label>Upload Supporting Document</label>
+            <input type="file" class="form-control" />
+        </div>
+        <button class="btn btn-success">Submit Claim</button>
+    </form>
+</div>
